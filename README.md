@@ -112,7 +112,7 @@ The dashboard compares job satisfaction ratings across job roles, including:
 - Human Resources
 
 This analysis can help HR teams investigate differences in job satisfaction across roles.
-
+## 👨‍💻 Author"
 
 **Aravind K**
 
