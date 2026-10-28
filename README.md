@@ -3,88 +3,124 @@
 
 ## 📌 Project Overview
 
-Developed an interactive HR Analytics Dashboard using Microsoft Power BI to help the HR team analyze employee attrition, workforce demographics, departmental distribution, and employee-related trends.
+Developed an interactive HR Analytics Dashboard using Microsoft Power BI to analyze employee attrition, workforce demographics, departmental attrition, education fields, age groups, and job satisfaction.
 
-The dashboard provides key insights into employee turnover and workforce composition, helping HR teams identify potential retention challenges and make data-driven decisions.
+The dashboard helps HR teams understand workforce trends, identify areas with higher employee attrition, and support data-driven employee retention and workforce planning decisions.
 
 ## 🎯 Project Objectives
 
-- Analyze employee attrition and identify potential retention challenges.
-- Understand workforce demographics, including age and gender distribution.
-- Evaluate employee distribution across departments and education fields.
-- Analyze employee tenure and salary-related metrics.
-- Provide actionable insights to support HR planning and employee retention strategies.
+- Analyze overall employee count, attrition, and active employees.
+- Calculate and monitor the employee attrition rate.
+- Understand employee age and gender distribution.
+- Analyze attrition across departments and education fields.
+- Compare employee distribution across different age groups.
+- Examine job satisfaction ratings across job roles.
+- Identify workforce segments that may require further retention analysis.
 
 ## 📊 Key Performance Indicators (KPIs)
 
 | KPI | Value |
 |---|---:|
-| Total Employees | 1,470 |
-| Total Employee Attrition | 237 |
-| Male Attrition | 150 |
-| Female Attrition | 87 |
-
-
-*Note: Verify all KPI values against the final Power BI dashboard before publishing.*
+| Overall Employees | 1,470 |
+| Total Attrition | 237 |
+| Attrition Rate | 16.12% |
+| Active Employees | 1,233 |
+| Average Age | 37 years |
 
 ## 🔍 Key Questions Answered
 
-- What is the total employee count?
-- What are the average employee age and average salary?
-- How many male and female employees have left the organization?
-- How are employees distributed by years of service?
-- Which department has the highest employee count?
-- What is the gender distribution across the workforce?
-- Which education field has the highest employee count?
-- Which business travel category includes the most employees?
-- Which departments and education fields show attrition concerns?
+- What is the total number of employees?
+- How many employees have left the organization?
+- What is the overall employee attrition rate?
+- How many active employees remain in the organization?
+- What is the average age of employees?
+- How is attrition distributed across departments?
+- Which education fields have the highest attrition counts?
+- How are employees distributed across different age groups and genders?
+- How does job satisfaction vary across job roles?
 
 ## 💡 Key Insights & Findings
 
 ### 1. Workforce Overview
-- The organization has a total workforce of **1,470 employees**.
-- The dashboard provides an overview of workforce composition and employee demographics.
 
-### 2. Employee Attrition
-- A total of **237 employees** left the organization.
-- Male employees accounted for 150 attrition cases.
-- Female employees accounted for 87 attrition cases.
-- Male employees represent a higher number of attrition cases, although gender-specific attrition rates should be compared against the number of male and female employees in the workforce.
+- The organization has **1,470 employees**.
+- A total of **1,233 employees are active**.
+- The average employee age is **37 years**.
+- The dashboard reports an overall attrition rate of **16.12%**.
 
-### 3. Departmental Attrition
-- Research and Development (R&D) was reported as having the highest departmental attrition rate at **56.13%**.
-- This department may require further investigation into workload, career development, compensation, job satisfaction, and employee engagement.
-- Verify the percentage and its denominator before presenting it as a departmental attrition rate.
+### 2. Employee Attrition Analysis
+
+- A total of **237 employees** have left the organization.
+- Attrition accounts for approximately 16.12% of the total workforce.
+- The dashboard provides an overview of employee attrition across departments and age groups.
+
+### 3. Department-Wise Attrition
+
+The dashboard shows the following distribution of the 237 attrition cases:
+
+| Department | Attrition Count | Share of Total Attrition |
+|---|---:|---:|
+| Research & Development (R&D) | 133 | 56.12% |
+| Sales | 92 | 38.82% |
+| Human Resources (HR) | 12 | 5.06% |
+| **Total** | **237** | **100%** |
+
+**Key finding:** Research & Development accounts for the largest share of attrition cases, followed by Sales and Human Resources.
+
+*Note: These percentages represent each department's share of total attrition, not the department-specific attrition rate.*
 
 ### 4. Education Field Analysis
-- Employees from the Life Sciences education field were reported to have the highest attrition.
-- Further analysis can help determine whether attrition is concentrated in particular roles, departments, or employee experience groups.
 
-### 5. Employee Tenure
-- Analyzing years of service helps identify whether attrition is concentrated among new employees or long-serving employees.
-- Tenure-based insights can support onboarding improvements, career development planning, and retention initiatives.
+The dashboard displays the following attrition counts by education field:
 
-## 📈 Dashboard Analysis Areas
+| Education Field | Attrition Count |
+|---|---:|
+| Life Sciences | 89 |
+| Medical | 63 |
+| Marketing | 35 |
+| Technical Degree | 32 |
+| Other | 11 |
+| Human Resources | 7 |
+| **Total** | **237** |
 
-- **Employee Overview:** Total employees, average age, and average salary.
-- **Attrition Analysis:** Total attrition and gender-based attrition.
-- **Department Analysis:** Employee distribution and departmental attrition.
-- **Gender Analysis:** Male and female workforce distribution.
-- **Education Analysis:** Employee distribution by education field.
-- **Business Travel Analysis:** Workforce distribution by travel category.
-- **Years at Company:** Employee tenure and service-year analysis.
+**Key finding:** Life Sciences has the highest attrition count, with 89 employees, followed by Medical with 63 employees.
+
+### 5. Age Group Analysis
+
+The dashboard segments employees into the following age groups:
+
+- Under 25
+- 25–34
+- 35–44
+- 45–54
+- Over 55
+
+These visuals allow HR teams to compare workforce distribution across age groups and examine gender-based patterns.
+
+### 6. Job Satisfaction Analysis
+
+The dashboard compares job satisfaction ratings across job roles, including:
+
+- Sales Executive
+- Research Scientist
+- Laboratory Technician
+- Manufacturing Director
+- Healthcare Representative
+- Manager
+- Sales Representative
+- Research Director
+- Human Resources
+
+This analysis can help HR teams investigate differences in job satisfaction across roles.
 
 
+**Aravind K**
 
-## 👨‍💻 Author
-
-**Aravind K**  
 Data Analyst | MIS Reporting | Power BI Developer  
 Bengaluru, India
 
 - Email: aravindaat656@gmail.com
 
-
 ## ⭐ Project Summary
 
-The HR Analytics Dashboard provides a structured view of workforce demographics and employee attrition using Power BI. It helps HR teams explore employee trends, investigate potential retention challenges, and support data-driven workforce planning.
+The HR Analytics Dashboard uses Power BI to provide an overview of employee attrition, active workforce, age distribution, departmental attrition, education fields, and job satisfaction. The insights help HR teams identify areas for further investigation and support informed workforce planning and employee retention strategies.
