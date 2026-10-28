@@ -23,8 +23,7 @@ The dashboard provides key insights into employee turnover and workforce composi
 | Total Employee Attrition | 237 |
 | Male Attrition | 150 |
 | Female Attrition | 87 |
-| Average Employee Age | As displayed in dashboard |
-| Average Salary | As displayed in dashboard |
+
 
 *Note: Verify all KPI values against the final Power BI dashboard before publishing.*
 
